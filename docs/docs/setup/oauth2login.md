@@ -38,9 +38,9 @@ Create an application on [Discord Developer Portal](https://discord.com/develope
 
 Redirect URL: `https://<your-domain>/api/oauth/callback/discord`
 
-### OpenID Connect
+### OpenID Connect (OIDC)
 
-Generic OpenID Connect provider is also supported, we have tested it on Keycloak, Authentik, Casdoor and [Pocket ID](https://github.com/stonith404/pocket-id).
+Generic OpenID Connect provider is also supported, and has been tested on Keycloak, Authentik, Casdoor and [Pocket ID](https://pocket-id.org/docs/client-examples/pingvin).
 
 Redirect URI: `https://<your-domain>/api/oauth/callback/oidc`
 
